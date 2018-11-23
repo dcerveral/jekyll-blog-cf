@@ -183,7 +183,9 @@ published: true
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <textarea style="min-height:60px;  width:100%; max-width:100%; color:#36A092; background-color:#f9f9f9; overflow: hidden; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;" onclick="this.focus();this.select()">&lt;script type="text/javascript" id="cookiefree" src="//cookiefree.cf/cookies.js"&gt; &lt;/script&gt;</textarea>
+            <cite>
+            &lt;script type="text/javascript" id="cookiefree" src="//cookiefree.cf/cookies.js"&gt; &lt;/script&gt; 
+            </cite>
           </div>
         </div>
       </div>
@@ -203,7 +205,7 @@ published: true
           <div class="col-lg-8 mx-auto">
             <p class="large text-muted">Para utilizar cualquiera de estas opciones, simplemente inserte en nombre de la propiedad, dentro del tag, por ejemplo: <b>&lt;script type="text/javascript" id="cookiefree" <b>data-text-align="left"</b> src="//cookiefree.cf/cookies.js"&gt;&lt;/script&gt;</b>.</p>
           </div>
-          
+          <p>&nbsp;<p>
           <div>
             <strong>data-font-size</strong> - Indica el tamaño del texto (Por defecto: 14px)<br />
 										<strong>data-font-family</strong> - font family of the message and the link (Por defecto:  verdana, arial, sans-serif)<br />
@@ -232,7 +234,7 @@ published: true
 										</p>
 										<p>
 										Ejemplo:<br>
-										<textarea style="min-height:330px; min-width:250px;width:100%; max-width:100%; color:#36A092; background-color:#f9f9f9; overflow: hidden; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;" onclick="this.focus();this.select()">
+										 <cite>
 &lt;script type="text/javascript" id="cookiefree"
 	src="//cookiefree.cf/cookies.js"
 	data-bg="#645862"
@@ -241,7 +243,7 @@ published: true
 	data-text-align="left"
     data-close-text="OK"&gt;
 &lt;/script&gt;
-</textarea>
+ </cite>
         </div>
           
           
@@ -296,21 +298,21 @@ published: true
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control" id="email" type="email" placeholder="Correo *" required="required" data-validation-required-message="E-mail válido">
+                    <input class="form-control" id="email" type="email" name="email" placeholder="Correo *" required="required" data-validation-required-message="E-mail válido">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control" id="phone" type="tel" placeholder="Teléfono *" required="required" data-validation-required-message="Formato Internacional +34xxxxxxxxx.">
+                    <input class="form-control" name="telefono" id="phone" type="tel" placeholder="Teléfono *" required="required" data-validation-required-message="Formato Internacional +34xxxxxxxxx.">
                     <p class="help-block text-danger"></p>
                   </div>
                    <div class="form-group">
-                    <input class="form-control" id="web" type="url" placeholder="Web *" required="required" data-validation-required-message="No olvide indicar https://">
+                    <input class="form-control" name="web" id="web" type="url" placeholder="Web *" required="required" data-validation-required-message="No olvide indicar https://">
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <textarea class="form-control" id="message" placeholder="Mensaje *" required="required" data-validation-required-message="Describa su problema."></textarea>
+                    <textarea class="form-control" name="mensaje" id="message" placeholder="Mensaje *" required="required" data-validation-required-message="Describa su problema."></textarea>
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
@@ -380,7 +382,7 @@ published: true
                   <h2 class="text-uppercase">Texto personalizado</h2>
                   <p class="item-intro text-muted">Ejemplo del script con texto personalizado.</p>
                   <img class="img-fluid d-block mx-auto" src="assets/img/uploads/captura2.png" alt="Script de cookiefree.cf, con opciones de configurar texto">
-                  <p>Agregando una variables, podemos personalizar completamente los textos del script<cite>&lt;script type="text/javascript" id="cookiefree" data-close-text="OK" data-message="Al navegar por nuestro sitio acepta el uso de cookies" data-linkmsg="Saber más" src="//cookiefree.cf/cookies.js"&gt; &lt;/script&lt;</cite></p>
+                  <p>Agregando una variables, podemos personalizar completamente los textos del script <cite>&lt;script type="text/javascript" id="cookiefree" data-close-text="OK" data-message="Al navegar por nuestro sitio acepta el uso de cookies" data-linkmsg="Saber más" src="//cookiefree.cf/cookies.js"&gt; &lt;/script&lt;</cite></p>
                   
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
@@ -407,18 +409,14 @@ published: true
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <h2 class="text-uppercase">Colores personalizados</h2>
+                  <p class="item-intro text-muted">Ejemplo con colores personalizados.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Finish</li>
-                    <li>Category: Identity</li>
-                  </ul>
+              <p>Agregando una variables, podemos personalizar completamente los textos del script <cite>&lt;script type="text/javascript" id="cookiefree" data-close-text="OK" data-message="Al navegar por nuestro sitio acepta el uso de cookies" data-linkmsg="Saber más" src="//cookiefree.cf/cookies.js"&gt; &lt;/script&lt;</cite></p>
+                  
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
-                    Close Project</button>
+                    Cerrar</button>
                 </div>
               </div>
             </div>
