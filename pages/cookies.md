@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: Política de cookies
 permalink: /cookies
 section: cookies
 intro_paragraph: >
