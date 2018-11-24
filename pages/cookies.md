@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: container
 title: Política de cookies
 permalink: /cookies
 section: cookies
@@ -10,10 +10,6 @@ intro_paragraph: >
   text editor.
 published: true
 ---
- <main>
- <section>
-   <div class="container">
-
 ## POLITICA DE COOKIES
 
 Utilizamos cookies propias y de terceros para mejorar nuestros servicios y mostrarle publicidad relacionada con sus preferencias mediante el análisis de sus hábitos de navegación
@@ -110,7 +106,3 @@ Ni esta web ni sus representantes legales pueden garantizar la correcta o incorr
 En algunos casos es necesario instalar cookies para que el navegador no olvide su decisión de no aceptación de las mismas.
 En el caso de las cookies de Google Analytics, esta empresa almacena las cookies en servidores ubicados en Estados Unidos y se compromete a no compartirla con terceros, excepto en los casos en los que sea necesario para el funcionamiento del sistema o cuando la ley obligue a tal efecto.
 Google no guarda su dirección IP Google (Alphabet Inc) es una compañía adherida al Escudo de Privacidad – EU US Privacy Shield que garantiza que todos los datos transferidos serán tratados con un nivel de protección acorde a la normativa europea.
-
-</div>
-</section>
-</main>
