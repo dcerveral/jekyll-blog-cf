@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: container
 title: Política de cookies
 permalink: /cookies
 section: cookies
